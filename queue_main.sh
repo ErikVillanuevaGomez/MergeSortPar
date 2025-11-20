@@ -8,7 +8,7 @@
 
 set -e
 
-cd $MergeSortPar
+cd $SLURM_SUBMIT_DIR
 
 make clean
 make
