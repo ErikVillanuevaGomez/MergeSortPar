@@ -1,0 +1,90 @@
+Merge Sort Benchmark Results
+-----------------------------------
+--- Testing with 1 threads ---
+Small Array (1 threads):
+0.0075424
+
+real	0m0.014s
+user	0m0.012s
+sys	0m0.000s
+
+Medium Array (1 threads):
+1.03797
+
+real	0m1.210s
+user	0m1.192s
+sys	0m0.014s
+
+Large Array (1 threads):
+5.68094
+
+real	0m6.523s
+user	0m6.441s
+sys	0m0.067s
+
+--- Testing with 2 threads ---
+Small Array (2 threads):
+0.00454051
+
+real	0m0.010s
+user	0m0.010s
+sys	0m0.002s
+
+Medium Array (2 threads):
+0.553724
+
+real	0m0.725s
+user	0m1.229s
+sys	0m0.020s
+
+Large Array (2 threads):
+3.00379
+
+real	0m3.846s
+user	0m6.516s
+sys	0m0.087s
+
+--- Testing with 4 threads ---
+Small Array (4 threads):
+0.0037708
+
+real	0m0.009s
+user	0m0.017s
+sys	0m0.001s
+
+Medium Array (4 threads):
+0.433648
+
+real	0m0.605s
+user	0m1.311s
+sys	0m0.023s
+
+Large Array (4 threads):
+2.48102
+
+real	0m3.325s
+user	0m6.633s
+sys	0m0.097s
+
+--- Testing with 8 threads ---
+Small Array (8 threads):
+0.00304926
+
+real	0m0.008s
+user	0m0.021s
+sys	0m0.002s
+
+Medium Array (8 threads):
+0.295405
+
+real	0m0.467s
+user	0m1.440s
+sys	0m0.023s
+
+Large Array (8 threads):
+1.65149
+
+real	0m2.493s
+user	0m6.794s
+sys	0m0.107s
+
